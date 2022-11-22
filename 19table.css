@@ -1,0 +1,51 @@
+table{
+	border-collapse: collapse;
+}
+.sign-up{
+	background-color:#ffc107;
+	text-align:left;
+	font-size:small;
+	color: #ffff75;	
+}
+h2{
+	margin:10px
+}
+th{
+	text-align:right;
+}
+tr{
+	background-color:#222536;
+	color: #9da35c;
+}
+.gender{
+	margin:0px
+}
+.text{
+	margin:0px 50px 0px 0px
+}
+
+.condition{
+	text-align:right;
+}
+span{
+	margin-right:42px;
+}
+.final{
+	background-color:#ffc107;
+	height: 39px;
+    text-align: right
+}
+input[type="submit"]{
+	background-color: #7fb343;
+    color: white;
+	border-radius:6px;
+}
+input[type="reset"]{
+	background-color:#ff1414c2;
+    color: white;
+	border-radius:6px;
+	margin-right:50px
+}
+input[type="reset"]:hover ,input[type="submit"]:hover{
+	font-size:large;
+}

@@ -1,0 +1,29 @@
+body{
+	background-color:#b679c396;
+}
+
+
+table{
+	border: 10px solid #ddb4b4;
+	border-bottom-color: #ffa6a0;
+	border-Left-color: #ffa6a0;
+	outline: 5px solid #8d69af;
+	outline-offset:0px;
+	background-color:#bfafb2;
+	margin-top:50px
+}
+
+.contact{
+	background-color:#8e5199;
+	font-family: cursive;
+    font-size: larger;
+}
+
+.submit{
+	background-color:#b889c1;
+	border:1px solid black;
+	font-family: arial;
+	height:40px;
+	width:175px
+	
+}

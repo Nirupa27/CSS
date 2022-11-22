@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+	<link rel="stylesheet" type="text/css" href="19table.css">
+	<body>
+		<form>
+		<table cellpadding="5px">
+			<tr>
+			<th colspan="2" class="sign-up"> 
+				<h2> Sign Up </h2>
+			</th>
+			</tr>
+			<tr>
+			<th> <label for="fname"> First Name </label> </th>
+			<td><input type="text" class="text" id="fname" placeholder="Enter First Name" name="fname" required> </td> 
+			</tr>
+			<tr>
+			<th> <label for="lname"> Last Name </label> </th>
+			<td> <input type="text" class="text" id="lname" placeholder="Enter Last Name" name="lname" required> </td>
+			</tr>
+			<tr>
+			<th> <label for="DOB"> Date of Birth </label> </th>
+			<td> <input type="date" class="text" id="DOB" name="DOB" required> </td>
+			</tr>
+			<tr>
+			<th> <label for="Gender"> Gender </label> </th>
+			<td> <input type="radio" id="Gender" name="rb1" required> Male
+			<input type="radio" id="Gender" name="rb1" required > Female </td>
+			</tr>
+			<th> <label for="Gender"> Country </label>	</th>
+			<td> <select>
+				<option> Country </option>
+				<option> India </option>
+				<option> Dubai </option>
+				<option> Nepal </option>
+				<option> England </option>
+			</select> </td> <br>
+			</tr>
+			<tr>
+			<th> <label for="Email"> E-mail </label> </th>
+			<td> <input type="Email" class="text" id="Email" placeholder="Enter E-mail" name="Email" required> </td>
+			</tr>
+			<tr>
+			<th> <label for="Phone"> Phone </label> </th>
+			<td> <input type="number" class="text" id="Phone" placeholder="Enter Phone" name="Phone" required> </td>
+			</tr>
+			<tr>
+			<th> <label for="Password">Password </label> </th>
+			<td> <input type="Password" class="text" id="Password" placeholder="" name="Password" required> </td>
+			</tr>
+			<tr>
+			<th> <label for="Cpassword"> Confirm Password </label> </th>
+			<td> <input type="password" class="text" id="Cpassword" placeholder="" name="Cpassword" required> </td>
+			</tr>
+			<tr class="condition">
+				<td colspan="2"> <input type="checkbox" required><span>I Agree to the Term of use</span> </td>
+			
+			</tr> 
+			<tr class="final">
+				<td colspan="2"> <input type="submit" value="Submit"> 
+					<input type="reset" value="Cancel"> </td>
+			</tr>
+			</table>
+			</form>
+	</body>
+</html>

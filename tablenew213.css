@@ -1,0 +1,35 @@
+body{
+	background-image: linear-gradient(#ad4d4d52,#dbcc1cc7);
+}
+.Form{
+	background-color:#9c27b078;
+	font-size: larger;	
+	letter-spacing: 2px;
+    word-spacing: 6px;
+	text-align:center;
+}
+th{
+	text-align:justify;
+}
+.Name, .Password{
+	height:30px;
+	width:300px;
+}
+.address{
+	width:302px;
+	height:105px;
+	resize:none;
+}
+select, option{
+	width:200px;
+}
+
+.file{
+	text-align:center;
+}
+.click,.submit,.reset{
+	width:145px;
+}
+
+
+	
